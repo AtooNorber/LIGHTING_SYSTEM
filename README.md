@@ -1,3 +1,5 @@
+
+ATOO NORBERT 23/U/2202/GIM/PS
 # LIGHTING_SYSTEM
 LDR-Controlled LED Project
 This project demonstrates how to control an LED using a Light Dependent Resistor (LDR) with an ESP32 microcontroller. The LED will turn on when the light level detected by the LDR is below a specified threshold and turn off when the light level is above the threshold.
