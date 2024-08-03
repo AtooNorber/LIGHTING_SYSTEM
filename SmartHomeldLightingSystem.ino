@@ -26,9 +26,11 @@ void loop() {
   if (lightLevel < lightThreshold) {
     // If the light level is below the threshold, turn the LED on
     digitalWrite(ledPin, HIGH);
+    Serial.println("light on");
   } else {
     // If the light level is above the threshold, turn the LED off
     digitalWrite(ledPin, LOW);
+    Serial.println("light on");
   }
 
   // Small delay for a second to stabilize the readings
